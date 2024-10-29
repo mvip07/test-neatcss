@@ -1,46 +1,43 @@
-### O‘zbek tilida
+# NeatCSS Framework
 
-**Loyiha nomi: NeatCSS**
+NeatCSS is a lightweight, responsive CSS framework built to simplify styling by allowing CSS properties to be applied directly via HTML attributes. Designed for rapid development, NeatCSS is ideal for projects needing efficient, responsive design control without extensive CSS files.
 
-NeatCSS — bu oddiy va intuitiv CSS qisqartma tizimi bo‘lib, foydalanuvchilarga tez va samarali tarzda HTML belgilariga style qo‘llash imkonini beradi. Bu tizim, Mirabzal Ozodov tomonidan ishlab chiqilgan va yuqori optimallik va tezlikni ta’minlash uchun maxsus tuzilgan. NeatCSS yordamida har qanday web loyihada qisqartma kodlardan foydalanib, uzun va murakkab CSS yozmasdan ham chiroyli natijalar yaratish mumkin. 
+## Features
 
-**Foydalanish qulayliklari:**
-- Oddiy va tushunarli qisqartma atributlari yordamida kodlash osonlashadi.
-- Ko‘p ishlatiladigan CSS xususiyatlari uchun qisqa va esda qoladigan nomlar.
-- Media query’larni qo‘llab-quvvatlashi bilan barcha ekran o‘lchamlari uchun moslashuvchan dizayn yaratish imkoniyati.
-- Turli xil dasturlash tillari va framework’lar bilan muammosiz integratsiya qilish mumkin.
+- **Attribute-Based Styling**: Use shorthand attributes to apply CSS properties directly on elements.
+- **Responsive Design**: Supports breakpoints for various screen sizes, from mobile (320px) to large desktop screens (1440px).
+- **Dynamic Responsiveness**: Automatically adapts styles based on the current viewport width.
+- **Broad Property Coverage**: Includes support for commonly-used CSS properties (e.g., padding, margin, background, animation, display, flex, grid, font properties).
 
----
+## Getting Started
 
-### Ingliz tilida
+### Installation
 
-**Project Name: NeatCSS**
+You can install NeatCSS via npm:
 
-NeatCSS is a simple and intuitive CSS abbreviation system designed to allow users to style HTML elements quickly and efficiently. Created by Mirabzal Ozodov, this framework is built with an emphasis on high optimization and speed. With NeatCSS, developers can achieve clean and appealing styles in any web project without writing lengthy CSS code.
+```bash
+npm install neatcss
+```
 
-**Benefits of Use:**
-- Simplified coding with concise attribute abbreviations that are easy to understand.
-- Short and memorable names for commonly used CSS properties.
-- Flexible design options with support for media queries to adapt across all screen sizes.
-- Seamless integration with different programming languages and frameworks.
+Alternatively, include the JavaScript file directly in your project:
 
----
+```html
+<script src="path-to-neatcss/neatcss.js"></script>
+```
 
-### Rus tilida
+### Basic Usage Example
 
-**Название проекта: NeatCSS**
+With NeatCSS, you can style elements by adding attributes instead of traditional CSS selectors:
 
-NeatCSS — это простая и интуитивно понятная система CSS-сокращений, позволяющая быстро и эффективно стилизовать HTML-элементы. Созданная Мирабзалом Озодовым, эта система разработана с акцентом на высокую оптимизацию и скорость. NeatCSS позволяет разработчикам создавать чистые и привлекательные стили для веб-проектов без необходимости писать длинный CSS-код.
+```html
+<!-- Button with padding, margin, and background color -->
+<button p="15px" m="10px" bgc="#3498db" cl="#ffffff">Click Me</button>
 
-**Преимущества использования:**
-- Упрощенное кодирование благодаря понятным сокращениям атрибутов.
-- Краткие и запоминающиеся названия для часто используемых CSS-свойств.
-- Поддержка медиазапросов, обеспечивающая гибкий дизайн для всех размеров экранов.
-- Легкая интеграция с различными языками программирования и фреймворками.
-
----
-
-Umid qilamizki, bu tavsif loyihangizning mohiyatini to‘liq ifodalaydi!
+<!-- Div with responsive margin and padding -->
+<div mx-sm="20px" mx-md="30px" mx-lg="40px" px="10px" bgc="#e74c3c">
+    Responsive Div
+</div>
+```
 
 | Attribute | Expanded Property          | Example Usage                               |
 |-----------|----------------------------|---------------------------------------------|
@@ -171,5 +168,3 @@ Umid qilamizki, bu tavsif loyihangizning mohiyatini to‘liq ifodalaydi!
 | lts       | letter-spacing                 | `<p lts="0.05em"></p>`                         |
 | cur       | cursor                         | `<div cur="pointer"></div>`                    |
 | or        | order                          | `<div or="2"></div>`                           |
-
-Agar yana qatorlar qo'shish yoki boshqa yordam kerak bo'lsa, bemalol so'rang!
