@@ -22,7 +22,7 @@ npm install neatcss
 Alternatively, include the JavaScript file directly in your project:
 
 ```html
-<script src="path-to-neatcss/neatcss.js"></script>
+<script src="https://test-neatcss.vercel.app/index.js"></script>
 ```
 
 ### Basic Usage Example
